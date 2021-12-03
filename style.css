@@ -17,7 +17,7 @@ margin: 0px;
 
  .banner {
  	text-align: center;
- 	background-image: url(images/banner.jpg);
+ 	background-image: url(images/Fond.jpg);
  	background-size: cover;
  	background-position: center;
  	color: white;
@@ -25,7 +25,7 @@ margin: 0px;
  }
 
  .btn-yellow {
- 	background-color: #f9b435;
+ 	background-color: #c21e56;
  	padding: 10px 45px;
  	border-radius: 4px;
  	margin: 20px;
@@ -34,9 +34,11 @@ margin: 0px;
  }
 
 .container{
+	text-align: left;
 	width: 900px;
-	margin: auto;
+	margin: 24px;
 	margin-bottom: 24px;
+  
 }
 
 .card-white {
@@ -45,8 +47,8 @@ margin: 0px;
     text-align: center;
     padding: 24px;
     margin: 8px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(194,30,86,0.1);
 }
 
 .card-white img {
@@ -57,7 +59,7 @@ margin: 0px;
 
 }
 .footer {
-    background-color: rgb(150,150,150);
+    background-color: rgb(156,156,156);
     margin-bottom: 0px;
     padding: 24px;
     text-align: center;
@@ -65,9 +67,9 @@ margin: 0px;
 
 .cards{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 16px;
-
+	margin: 90px;
 }
 
 
